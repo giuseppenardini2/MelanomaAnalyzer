@@ -1,0 +1,98 @@
+body {
+    background-color: #e8e8e8;
+}
+
+h1 {
+    font-family: 'Gill Sans', sans-serif;
+}
+
+p {
+    font-family: 'Gill Sans', sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.raw {
+    margin-top: 1.1em;
+    margin-bottom: 1.1em;
+}
+
+/* https://nikitahl.com/custom-styled-input-type-file */
+.file-button {
+  width: 350px;
+  max-width: 100%;
+  color: #444;
+  padding: 5px;
+  background: #fff;
+  border-radius: 10px;
+  border: 1px solid #555;
+}
+.file-button::file-selector-button {
+  margin-right: 20px;
+  border: none;
+  background: #084cdf;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  transition: background .2s ease-in-out;
+}
+.file-button::file-selector-button:hover {
+  background: #0d45a5;
+}
+
+/* https://uiverse.io/barisdogansutcu/fuzzy-bullfrog-72 */
+.upload-button {
+    padding: 17px 40px;
+  border-radius: 50px;
+  cursor: pointer;
+  border: 0;
+  background-color: white;
+  box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-size: 15px;
+  transition: all 0.5s ease;
+}
+.upload-button:hover {
+  letter-spacing: 3px;
+  background-color: hsl(261deg 80% 48%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(93 24 220) 0px 7px 29px 0px;
+}
+.upload-button:active {
+  letter-spacing: 3px;
+  background-color: hsl(261deg 80% 48%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
+  transform: translateY(10px);
+  transition: 100ms;
+}
+
+.result-box {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    border-style: solid;
+    border-radius: 5px;
+}
+.good-result {
+    border-color: #08a045;
+    background-color: #6bbf59;
+}
+.bad-result {
+    border-color: #b22222;
+    background-color: #cd5c5c;
+}
+
+.img1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    border-style: solid;
+    border-color: #999999;
+}
