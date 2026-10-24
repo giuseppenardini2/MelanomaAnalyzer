@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <title>Melanoma analyzer</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Melanoma analyzer</h1>
+        <p>Upload an image of a mole to see if it is melanoma.</p>
+        <form method=post enctype=multipart/form-data>
+            <div class="raw">
+                <input class="file-button" type=file name=file>
+            </div>
+            <div class="raw">
+                <input class="upload-button" type=submit value=Upload>
+            </div>
+        </form>
+
+    {% if image_url!=None %}
+    <div>
+        <img class="img1" src="{{ image_url }}">
+    </div>
+    {% endif %}
+
+    {% if is_mel==True %}
+    <div class="raw result-box bad-result">
+        <h4>It is a melanoma</h4>
+    </div>
+    {% elif is_mel==False %}
+    <div class="raw result-box good-result">
+        <h4>It is not a melanoma</h4>
+    </div>
+    {% endif %}
+    </div>
+</body>
+
+</html>
