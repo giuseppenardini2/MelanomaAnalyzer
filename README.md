@@ -27,7 +27,8 @@ by the neural network.
 > MyFinger is a university project focused on creating a CNN.
 > It is not for medical purpose.
 
-<img width="671" height="745" alt="MelanomaAnalyzerGUIImage" src="https://github.com/user-attachments/assets/c9eeff24-5af5-4c28-bac4-682bfc25a93d" />
+<img width="671" height="710" alt="MelanomaAnalyzerGUIImage" src="https://github.com/user-attachments/assets/6b776c41-bd50-4671-9029-306872074b05" />
+
 
 
 ## Dataset
