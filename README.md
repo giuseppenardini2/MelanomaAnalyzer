@@ -32,7 +32,7 @@ by the neural network.
 </p>
 
 ## Dataset
-The public [Dermel](#https://www.kaggle.com/datasets/drscarlat/melanoma) dataset was
+The public [Dermel](https://www.kaggle.com/datasets/drscarlat/melanoma) dataset was
 used for model training and validation.
 
 ## License
