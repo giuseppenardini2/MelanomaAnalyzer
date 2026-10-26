@@ -27,9 +27,9 @@ by the neural network.
 > MyFinger is a university project focused on creating a CNN.
 > It is not for medical purpose.
 
-![Melanoma Analyzer](MelanomaAnalyzer.png)
-
-
+<p align="center">
+  <img src="MelanomaAnalyzer.png" alt="Melanoma Analyzer" width="400">
+</p>
 
 ## Dataset
 The public [Dermel](#https://www.kaggle.com/datasets/drscarlat/melanoma) dataset was
