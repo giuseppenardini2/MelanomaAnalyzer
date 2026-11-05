@@ -28,7 +28,7 @@ by the neural network.
 > It is not for medical purpose.
 
 <p align="center">
-  <img src="MelanomaAnalyzer.png" alt="Melanoma Analyzer" width="400">
+  <img src="doc/images/MelanomaAnalyzer.png" alt="Melanoma Analyzer" width="400">
 </p>
 
 ## Dataset
